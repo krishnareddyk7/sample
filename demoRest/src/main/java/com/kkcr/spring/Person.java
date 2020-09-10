@@ -4,6 +4,14 @@ public class Person {
 	
 	private String message;
 	private long id;
+	
+	
+
+	public Person(String message, long id) {
+		super();
+		this.message = message;
+		this.id = id;
+	}
 
 	public String getMessage() {
 		return message;
